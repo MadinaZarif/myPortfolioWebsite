@@ -1,0 +1,25 @@
+<style>
+  .hero-section {
+    background-image: url('images/mirror-art.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+  }
+
+  .about-section {
+    background-image: url('images/blogotherapy.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+  }
+
+  /* Дополнительно: тень для читаемости */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* полупрозрачный тёмный слой */
+    padding: 50px;
+  }
+</style>
