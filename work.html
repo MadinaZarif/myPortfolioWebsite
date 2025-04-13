@@ -23,7 +23,7 @@
     }
     .logo {
       font-family:'Times New Roman', cursive;
-      font-size: 32px;
+      font-size: 30px;
       font-weight: bold;
       padding: 10px 20px;
       color: #ffffff;
@@ -55,6 +55,38 @@
       line-height: 1.6;
       font-size: 17px;
     }
+    .project-card {
+  background-color: #07575b;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #f0f0f0;
+}
+
+.project-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.project-card .btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #66a5ad;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
     footer {
       background: #003b46;
       padding: 20px;
@@ -95,6 +127,7 @@
   </header>
 
   <div class="container">
+  
     <h1>My Projects</h1>
     <p>This section showcases the projects I’ve built as part of my journey into tech and cloud computing. Below are some highlights:</p>
 
@@ -104,7 +137,40 @@
       <li><strong>IAM Hands-on Labs</strong> — Practicing AWS Identity and Access Management.</li>
       <li><strong>Cloud Resume Challenge</strong> — In progress, combining frontend + backend + CI/CD.</li>
     </ul>
+    <div class="project-card">
+      <h3>Personal Portfolio Website</h3>
+      <p>Built with HTML/CSS, hosted on AWS S3 and Route 53.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3>QuickSight Dashboard</h3>
+      <p>Visualizing data related to women's careers and challenges.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3>IAM Hands-on Labs</h3>
+      <p>Practicing AWS Identity and Access Management.</p>
+    </div>
+    
+    <div class="project-card">
+      <h3>Cloud Resume Challenge</h3>
+      <p>In progress, combining frontend + backend + CI/CD.</p>
+    </div>
+    
+    <div class="project-card" id="penny-app">
+      <h3>Product Lookup App</h3>
+      <p>This simple Java application was created while I was working at the Penny supermarket. As a cashier, I was given a long list of product codes to memorize. I was curious about how the POS (Point of Sale) system works — so I decided to make my own mini lookup tool. It helped me learn Java better and remember product numbers.</p>
+      <ul>
+        <li>✔️ Java Swing GUI</li>
+        <li>✔️ HashMap lookup logic</li>
+        <li>✔️ Real-world application idea</li>
+      </ul>
+      <a href="https://github.com/MadinaZarif/ProductLookupApp" class="btn" target="_blank">View on GitHub</a>
+    </div>
+    
   </div>
+
+  
 
   <footer>
     <p>Connect with me:</p>
