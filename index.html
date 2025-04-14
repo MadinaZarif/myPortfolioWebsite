@@ -157,6 +157,37 @@
   font-size: 26px;
   font-weight: bold;
 }
+.story-section {
+  background-color: #f2f4e4;
+  padding: 60px 20px;
+  box-shadow: inset 0 -1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.story-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 18px;
+  color: #003b46;
+  line-height: 1.6;
+}
+
+.story-content h2 {
+  font-size: 24px;
+  color: #003b46;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .cv-header {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .cv-header img {
+      width: 120px;
+    }
+  }
 
   </style>
   <!-- Google tag (gtag.js) -->
@@ -175,7 +206,7 @@
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About me</a>
-      <a href="goal.html">My Goal</a>
+      <a href="goal.html">My Blog</a>
       <a href="work.html">Projects</a>
       <a href="contact.html">Contact</a>
     </nav>
@@ -208,17 +239,30 @@
         <li>✔️ QuickSight dashboard with real-life statistics</li>
       </ul><a href="#quicksight" class="btn">View QuickSight Chart</a>
 
-      <a href="https://github.com/MadinaZarif/ProductLookupApp" class="btn" target="_blank">View on GitHub</a>
-
-      
-    </div>
-    <div class="box" id="goal">
-     
-    </div>
+      <a href="https://github.com/MadinaZarif/ProductLookupApp" class="btn" target="_blank">View on GitHub</a> </div>
+           
+      <div class="box" id="cv">
+        <h3>My CV</h3>
+        <p>
+          Want to learn more about my journey and skills in detail?
+          Check out my full CV with experience, education and projects.
+        </p>
+        <a href="cv.html" class="btn">View my CV</a>
+      </div>
   </section>
-
   <section class="canva-section" id="quicksight">
     <h2 style="color: #003b46;">Infographic: Women and Career Paths</h2>
+      <div class="story-content">
+        <h2>📌 Why I Chose This Statistic</h2>
+        <p>A woman is, above all, a mother, a wife, a keeper of the home. That’s what we were told since childhood. The Eastern culture I grew up in still carefully preserves these traditions. From a young age, we were raised to become good wives and caring mothers.</p>
+        <p>But what if a woman wants more?</p>
+        <p>When I was 15, I dreamed of continuing my education. But my parents said: <em>“Why? Your education won’t buy us a city.”</em></p>
+        <p>That phrase stayed with me forever.</p>
+        <p>📊 That’s why on this page, you’ll find statistics — about what women around the world face when trying to build a career while balancing motherhood, caring for loved ones, and their own dreams.</p>
+        <p><strong>✨ I believe we can change that. And I hope that I can too.</strong></p>
+      </div>
+   
+    
     <div class="canva-embed">
       <iframe loading="lazy"
         src="https://www.canva.com/design/DAGkN9VGDlY/_MvF_3VikX3d9ylD4hsHLw/view?embed"
@@ -226,6 +270,7 @@
       </iframe>
     </div>
   </section>
+
   
   <footer>
     <p>Connect with me:</p>
